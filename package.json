@@ -1,0 +1,39 @@
+{
+	"name": "crypto-tickers",
+	"version": "0.0.0",
+	"description": "Get price tickers for crypto currencies",
+	"license": "MIT",
+	"repository": "kevva/crypto-tickers",
+	"author": {
+		"name": "Kevin Mårtensson",
+		"email": "kevinmartensson@gmail.com",
+		"url": "github.com/kevva"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"arbitrage",
+		"bitcoin",
+		"btc",
+		"crypto",
+		"currency",
+		"exchange",
+		"price"
+	],
+	"dependencies": {
+		"array-uniq": "^1.0.3",
+		"ccxt": "^1.10.337",
+		"p-reduce": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"xo": "*"
+	}
+}
