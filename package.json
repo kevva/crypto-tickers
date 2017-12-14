@@ -1,6 +1,6 @@
 {
 	"name": "crypto-tickers",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Get price tickers for crypto currencies",
 	"license": "MIT",
 	"repository": "kevva/crypto-tickers",
